@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<style>
+		body{
+			background: #D38312;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+		}
+
+
+		.insta{
+			width: 400px;
+			height: 430px;
+			background: white;
+			position: relative;
+			top: 30px;
+			left: 450px;
+
+		}
+		.insta h2{
+			color: black;
+			position: absolute;
+			left: 100px;
+			font-family: Lucida Calligraphy;
+			font-size: 35px;
+		
+		}
+		.insta input{
+			width: 300px;
+			height: 30px;
+			margin: 3px;
+			position: relative;
+			top: 100px;
+
+		}
+		input::placeholder{
+			color: black;
+			padding: 5px;
+		}
+		.insta button{
+			position: relative;
+			top: 110px;
+			width: 308px;
+			height: 35px;
+			background: steelblue;
+			border: none;
+			color: white;
+			font-size: 18px;
+			font-family: calibri;
+			transition: 0.5s;
+		}
+		button:hover{
+			background: black;
+			border: black;
+			font-size: 20px;
+
+		}
+		.insta h3{
+			position: absolute;
+			top: 250px;
+			left: 190px;
+			font-size: 13px;
+			color: gray;
+			font-family: calibri;
+		}
+		h3::before{
+			content: "";
+			width: 135px;
+			height: 1px;
+			background: gray;
+			position: absolute;
+			top: 8px;
+			right: 25px;
+
+		}
+		h3::after{
+			content: "";
+			width: 139px;
+			height: 1px;
+			background: gray;
+			position: absolute;
+			top: 8px;
+			left: 25px;
+		}
+		.insta i{
+			position: absolute;
+			top: 310px;
+			right: 260px;
+			font-size: 20px;
+			
+
+		}
+		
+
+
+
+
+		.insta p{
+			position: absolute;
+			top: 295px;
+			right: 115px;
+			color: royalblue;
+			transition: 0.5;
+		}
+		p:hover{
+			color: black;
+		}
+		.insta h5{
+			position: absolute;
+			top: 350px;
+			right: 140px;
+			color: royalblue;
+			transition: 0.1s;
+		}
+		h5:hover{
+			color: black;
+		}
+		.box{
+			width: 400px;
+			height: 60px;
+			background: white;
+			position: relative;
+			top: 25px;
+			left: 450px;
+		}
+		.box p{
+			color: black;
+			padding: 19px;
+			margin-left: 80px;
+		}
+		.box p::after{
+			content:"sign up";
+			margin: 5px;
+			color: royalblue;
+		}
+		
+		
+
+
+	</style>
+</head>
+<body>
+	<div class="insta">
+		<h2>Instagram</h2>
+		<br>
+		<center><input type="text" name="" placeholder="phone number, username or email">
+		<br>
+		<input type="password" name="" placeholder="Password">
+		<br>
+		<button>Log in</button>
+		<br>
+		<h3>OR</h3>
+		<br>
+		<i class="fa-brands fa-square-facebook" style="color: #0d65fd;"></i>
+		<p>Log in with facebook</p>
+		<br>
+		<h5>Forgot password?</h5>
+
+	</div>
+	<div class="box">
+		<p>Don't have an account?</p>
+	</div>
+
+
+
+
+</body>
+</html>
